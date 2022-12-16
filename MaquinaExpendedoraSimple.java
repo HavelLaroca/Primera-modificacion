@@ -84,6 +84,9 @@ public class MaquinaExpendedoraSimple {
     public void reducirPrecioBillete(int cantidadAReducir){
     precioBillete = precioBillete - cantidadAReducir;
 }
+    public void vaciarDepositoDinero(){ 
+    totalDineroAcumulado = 0;
+}
 }
     
 
